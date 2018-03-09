@@ -2,7 +2,7 @@
 #'
 #' A useful color map for image plots.
 #' @param n Number of color levels. Default setting \code{n = 64}.
-#'
+#' @export
 parula <- function(n = 64) {
   colormap <- colorRampPalette(
   c(
